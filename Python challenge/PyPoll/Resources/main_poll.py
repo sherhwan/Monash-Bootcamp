@@ -23,7 +23,8 @@ for row in data:
     candidate = row[2]
     if candidate not in candidates:
         candidates[candidate] = 0
-        candidates[candidate] += 1
+    candidates[candidate] += 1
+
 
 print("Candidates who received votes:")
 for candidate in candidates:
