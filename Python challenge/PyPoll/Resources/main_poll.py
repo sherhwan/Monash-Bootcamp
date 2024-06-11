@@ -26,9 +26,9 @@ for row in data:
     candidates[candidate] += 1
 
 
-print("Candidates who received votes:")
-for candidate in candidates:
-    print(candidate)
+# print("Candidates who received votes:")
+# for candidate in candidates:
+    # print(candidate)
 
 # The percentage of votes each candidate won
 # The total number of votes each candidate won
@@ -36,6 +36,7 @@ for candidate in candidates:
 for candidate, count in candidates.items():
     candidate_rate = count / total_votes * 100
     print(f'{candidate}: {candidate_rate:.2f}% ({count} votes)')
+print("_____________________")
 
 # The winner of the election based on popular vote
 
